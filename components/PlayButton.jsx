@@ -1,7 +1,7 @@
 "use client";
 export default function PlayButton() {
   const handleVideoClick = () => {
-    window.open("https://www.adsterra.com/your-ad-link", "_blank");
+    window.open("#", "_blank");
     setTimeout(() => {
       window.location.href = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"; // Replace with actual video link
     }, 1000);

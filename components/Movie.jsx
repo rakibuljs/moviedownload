@@ -29,7 +29,7 @@ export default function MovieLandingPage() {
       {/* Redirect to Adsterra Link */}
       <div className="mt-6">
         <a
-          href="https://www.adsterra.com/your-ad-link" // Replace with Adsterra link
+          href="#" // Replace with Adsterra link
           className="px-6 py-3 bg-yellow-600 hover:bg-yellow-700 text-white rounded-lg shadow-md"
         >
           Download
@@ -39,13 +39,13 @@ export default function MovieLandingPage() {
       {/* Download Buttons */}
       <div className="mt-6 flex flex-col sm:flex-row sm:gap-4 gap-2 items-center justify-center">
         <a
-          href="https://your-download-link1.com"
+          href="#"
           className="w-full sm:w-auto px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg shadow-md text-center"
         >
           Download 720p
         </a>
         <a
-          href="https://your-download-link2.com"
+          href="#"
           className="w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-md text-center"
         >
           Download 1080p
