@@ -1,7 +1,10 @@
 "use client";
 export default function PlayButton() {
   const handleVideoClick = () => {
-    window.open("#", "_blank");
+    window.open(
+      "https://www.effectiveratecpm.com/ebmi8eah?key=f08d3ac8bfcaba61b928eb1819245b99",
+      "_blank"
+    );
     setTimeout(() => {
       window.location.href = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"; // Replace with actual video link
     }, 1000);

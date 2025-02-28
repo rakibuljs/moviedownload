@@ -6,12 +6,12 @@ export default function PopunderAndSocialBar() {
       {/* পপআন্ডার অ্যাড */}
       <Script
         id="adsterra-popunder"
-        strategy="lazyOnload"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             (function() {
               var popunderScript = document.createElement("script");
-              popunderScript.src = "//pl25986333.effectiveratecpm.com/36/69/eb/3669eb2fa42aafb271e1d52404627576.js"; // এখানে আপনার আসল Adsterra পপআন্ডার স্ক্রিপ্ট দিন
+              popunderScript.src = "//pl25986333.effectiveratecpm.com/36/69/eb/3669eb2fa42aafb271e1d52404627576.js"; 
               popunderScript.async = true;
               document.body.appendChild(popunderScript);
             })();
@@ -22,12 +22,12 @@ export default function PopunderAndSocialBar() {
       {/* সোশ্যাল বার অ্যাড */}
       <Script
         id="adsterra-socialbar"
-        strategy="lazyOnload"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             (function() {
               var socialBarScript = document.createElement("script");
-              socialBarScript.src = "https://www.adsterra.com/your-socialbar-code.js"; // এখানে আপনার আসল Adsterra সোশ্যাল বার স্ক্রিপ্ট দিন
+              socialBarScript.src = "//pl25986440.effectiveratecpm.com/ee/16/e7/ee16e7c727afa791be6431b83a771db6.js"; 
               socialBarScript.async = true;
               document.body.appendChild(socialBarScript);
             })();

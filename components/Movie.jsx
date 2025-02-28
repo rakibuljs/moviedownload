@@ -1,4 +1,3 @@
-import Script from "next/script";
 import PlayButton from "./PlayButton";
 import Contact from "./Contact";
 
@@ -29,7 +28,7 @@ export default function MovieLandingPage() {
       {/* Redirect to Adsterra Link */}
       <div className="mt-6">
         <a
-          href="#" // Replace with Adsterra link
+          href="https://www.effectiveratecpm.com/ebmi8eah?key=f08d3ac8bfcaba61b928eb1819245b99" // Replace with Adsterra link
           className="px-6 py-3 bg-yellow-600 hover:bg-yellow-700 text-white rounded-lg shadow-md"
         >
           Download
@@ -39,13 +38,13 @@ export default function MovieLandingPage() {
       {/* Download Buttons */}
       <div className="mt-6 flex flex-col sm:flex-row sm:gap-4 gap-2 items-center justify-center">
         <a
-          href="#"
+          href="https://www.effectiveratecpm.com/ebmi8eah?key=f08d3ac8bfcaba61b928eb1819245b99"
           className="w-full sm:w-auto px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg shadow-md text-center"
         >
           Download 720p
         </a>
         <a
-          href="#"
+          href="https://www.effectiveratecpm.com/ebmi8eah?key=f08d3ac8bfcaba61b928eb1819245b99"
           className="w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-md text-center"
         >
           Download 1080p
